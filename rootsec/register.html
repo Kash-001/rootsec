@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>REGISTER to Rootsec</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <form class="formreg" action="register.php" method="post">
+        <h1>Rootsec REGISTER</h1>
+
+        <label for="username">Username</label>
+        <input type="text" maxlength="16" id="usr" placeholder="max. 16 characters" name="username">
+
+        <label for="password">Password</label>
+        <input type="password" maxlength="16" id="pw" class="pws" placeholder="max. 16 characters" name="password">
+        <span id="message"></span>
+        <label for="password">Confirm password</label>
+        <input type="password" maxlength="16" class="pws" placeholder="max. 16 characters" name="passwordconf">
+        <input type="submit" value="Register" name="Register" class="but">
+    </form>
+</body>
+</html>
